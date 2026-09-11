@@ -275,3 +275,53 @@ MedMind is designed for:
 - Containerized services
 
 This allows healthcare providers to keep sensitive systems on-premises while using scalable AI services in the cloud.
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+
+    Patient[Patient]
+
+    Patient --> Voice[Voice Call]
+    Patient --> Chat[Web / Mobile Chat]
+    Patient --> WhatsApp[WhatsApp]
+
+    Voice --> Asterisk[Asterisk / SIP]
+    Asterisk --> VoiceGateway[Voice Gateway]
+
+    VoiceGateway --> STT[Speech-to-Text]
+    STT --> Agent[MedMind AI Agent]
+
+    Chat --> Agent
+    WhatsApp --> Agent
+
+    Agent --> Router[Semantic Router]
+    Router --> Planner[AI Planner / Orchestrator]
+
+    Planner --> MCP[MCP Tool Layer]
+
+    MCP --> AppointmentAPI[Appointment APIs]
+    MCP --> ProviderAPI[Provider APIs]
+    MCP --> RAG[RAG Knowledge Base]
+    MCP --> ClinicalAI[Clinical Intelligence Modules]
+
+    AppointmentAPI --> DB[(Healthcare Database)]
+    ProviderAPI --> DB
+
+    ClinicalAI --> LabResults[Lab & Medical Results]
+    ClinicalAI --> Documentation[Clinical Documentation]
+    ClinicalAI --> DiagnosticSupport[AI-Assisted Diagnostic Support]
+
+    RAG --> VectorDB[(Vector Database)]
+
+    Agent --> TTS[Text-to-Speech]
+    TTS --> VoiceGateway
+
+    DB --> Notifications[Notification Service]
+    Notifications --> WhatsAppAPI[WhatsApp Business API]
+
+    DB --> Dashboard[Analytics & KPI Dashboard]
+    الـarchitecture دي مبنية على الـsystem model عندكم: user interaction → reservation/AI orchestration → MCP → healthcare/clinical services → data/analytics/cloud. :contentReference[oaicite:0]{index=0}

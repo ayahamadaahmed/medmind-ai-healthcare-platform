@@ -552,3 +552,42 @@ These capabilities are intended to assist healthcare professionals and remain su
 - Security hardening
 - Analytics and KPI dashboard
 - Performance and latency optimization
+
+---
+
+## 👥 Team
+
+MedMind is developed as a Graduation Project at:
+
+**Faculty of Intelligent Systems Engineering**  
+**Helwan National University — 2026**
+
+### Team Members
+
+- **Aya Hamada** — AI & Hybrid Infrastructure
+- **Esraa Hamdy** — Machine Learning & Data
+- **Ahmed Hamed** — Backend Development & Security
+- **Omar Ahmed** — Database & Healthcare Provider Integration
+- **Marwan Mohamed** — Frontend & Mobile Development
+
+### Supervision
+
+**Prof. Ahmed Salah El-Din Mohamed**
+
+---
+
+## 🎓 Project Context
+
+MedMind was designed to address healthcare communication, scheduling, clinical support, and operational fragmentation through one unified AI-powered platform.
+
+The project combines:
+
+- AI agents
+- Voice and chat interaction
+- Healthcare workflows
+- Clinical intelligence support
+- Multi-tenant backend systems
+- Secure tool integration
+- Hybrid Cloud + On-Premises deployment
+
+The long-term goal is to provide healthcare providers with a scalable AI communication layer while maintaining control, privacy, and human clinical oversight.

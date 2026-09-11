@@ -463,3 +463,92 @@ MedMind can then:
 6. Support documentation and follow-up workflows.
 
 > Clinical intelligence features are designed to support healthcare professionals and do not replace medical diagnosis or clinical judgment.
+
+---
+
+## 🚧 Project Status
+
+MedMind is currently under active development.
+
+### ✅ Implemented
+
+- Multi-tenant healthcare backend
+- Appointment booking workflow
+- Appointment cancellation workflow
+- Appointment rescheduling workflow
+- Appointment confirmation
+- Doctor and specialty search
+- Available appointment slot retrieval
+- Arabic and English conversational AI
+- Egyptian Arabic support
+- AI voice calling pipeline
+- Asterisk telephony integration
+- Voice Activity Detection (VAD)
+- Streaming STT integration
+- Streaming TTS
+- Voice barge-in
+- Dual-STT validation for sensitive confirmations
+- Semantic AI routing
+- LLM-based tool planning
+- MCP-based healthcare tool integration
+- Retrieval-Augmented Generation (RAG)
+- Qdrant vector database
+- WhatsApp notification workflow
+- Dockerized backend services
+
+---
+
+### 🔄 Currently Improving
+
+- End-to-end voice latency
+- Noisy-environment voice handling
+- STT arbitration and reliability
+- Cloud deployment
+- Observability and monitoring
+- WhatsApp post-call workflows
+- Production security and privacy controls
+
+---
+
+### 🧪 Clinical Intelligence Development
+
+The clinical intelligence layer is being developed to support:
+
+- Laboratory result interpretation
+- Medical report analysis
+- Clinical documentation assistance
+- Structured medical summaries
+- AI-assisted diagnostic support
+
+These capabilities are intended to assist healthcare professionals and remain subject to clinical oversight.
+
+---
+
+## 🗺️ Roadmap
+
+### Phase 1 — Core Healthcare Operations
+- Appointment workflows
+- Multi-tenant architecture
+- Provider APIs
+- Patient communication
+
+### Phase 2 — Intelligent Voice & Chat
+- Arabic voice agent
+- Conversational AI
+- Semantic routing
+- MCP tool orchestration
+- RAG knowledge layer
+
+### Phase 3 — Clinical Intelligence
+- Laboratory result analysis
+- Medical report interpretation
+- Clinical documentation
+- AI-assisted decision support
+
+### Phase 4 — Production & Scale
+- Microsoft Azure deployment
+- Hybrid Cloud + On-Premises connectivity
+- Monitoring and observability
+- Security hardening
+- Analytics and KPI dashboard
+- Performance and latency optimization

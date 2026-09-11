@@ -333,7 +333,6 @@ This architecture allows voice, chat, appointment management, clinical intellige
 ---
 
 ## 🛠️ Technology Stack
-## 🛠️ Technology Stack
 
 ### 🤖 AI & Agent Orchestration
 
@@ -426,3 +425,41 @@ The platform is designed to monitor:
 - Escalation rate
 - System availability
 - AI workflow performance
+
+---
+
+## 🎬 How It Works
+
+### Example: Booking an Appointment by Voice
+
+A patient calls the healthcare provider and says:
+
+> "عايزة أحجز كشف جلدية يوم الثلاثاء."
+
+MedMind then:
+
+1. Detects the patient's language and intent.
+2. Identifies the requested specialty.
+3. Searches available doctors and schedules.
+4. Retrieves available appointment slots.
+5. Collects and confirms the required patient information.
+6. Creates the appointment through the healthcare backend.
+7. Confirms the booking during the call.
+8. Sends the appointment details through WhatsApp.
+
+---
+
+### Example: Clinical Support
+
+A healthcare professional or authorized user can provide a medical or laboratory report.
+
+MedMind can then:
+
+1. Process the uploaded medical information.
+2. Extract relevant clinical findings.
+3. Retrieve supporting medical knowledge when needed.
+4. Generate an AI-assisted interpretation.
+5. Structure the result into a clear clinical summary.
+6. Support documentation and follow-up workflows.
+
+> Clinical intelligence features are designed to support healthcare professionals and do not replace medical diagnosis or clinical judgment.

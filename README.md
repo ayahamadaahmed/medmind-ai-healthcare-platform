@@ -323,5 +323,4 @@ flowchart TD
     DB --> Notifications[Notification Service]
     Notifications --> WhatsAppAPI[WhatsApp Business API]
 
-    DB --> Dashboard[Analytics & KPI Dashboard]
-    الـarchitecture دي مبنية على الـsystem model عندكم: user interaction → reservation/AI orchestration → MCP → healthcare/clinical services → data/analytics/cloud. :contentReference[oaicite:0]{index=0}
+    

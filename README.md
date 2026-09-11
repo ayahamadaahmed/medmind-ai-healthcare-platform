@@ -131,3 +131,147 @@ The platform focuses on:
 ---
 
 > **MedMind is an academic healthcare AI project designed to support healthcare communication, operations, and clinical assistance while keeping healthcare professionals in control of medical decisions.**
+
+
+---
+
+## ✨ Key Features
+
+### 📞 AI Voice Receptionist
+
+MedMind can interact with patients through natural voice conversations.
+
+Current voice capabilities include:
+
+- Arabic and English voice interaction
+- Egyptian Arabic support
+- Appointment booking through voice
+- Appointment cancellation and rescheduling
+- Voice activity detection
+- Streaming speech processing
+- Barge-in support
+- Streaming text-to-speech
+- Dual-STT validation for sensitive confirmation steps
+
+---
+
+### 📅 Intelligent Appointment Management
+
+Patients can manage appointments naturally through voice or chat.
+
+Supported operations include:
+
+- Book appointments
+- Reschedule appointments
+- Cancel appointments
+- Confirm appointments
+- Search available appointment slots
+- Search doctors and specialties
+- Check provider working hours
+
+---
+
+### 💬 Omnichannel Patient Communication
+
+MedMind connects multiple communication channels through one backend.
+
+Supported and planned channels include:
+
+- Voice calls
+- Web chat
+- Mobile applications
+- WhatsApp
+
+This allows patients to continue interacting with healthcare services through the channel most convenient for them.
+
+---
+
+### 📚 Retrieval-Augmented Generation
+
+MedMind uses RAG to answer informational healthcare-provider questions.
+
+The knowledge layer can support:
+
+- Provider policies
+- Frequently asked questions
+- Service information
+- Doctor information
+- Healthcare guidance content
+
+Operational information such as appointments and schedules is retrieved from trusted APIs and databases instead of relying on generated answers.
+
+---
+
+### 🧠 AI-Assisted Clinical Intelligence
+
+MedMind extends beyond administrative workflows with clinical support capabilities.
+
+Planned and implemented modules include:
+
+- Laboratory result interpretation
+- Medical report analysis
+- Diagnostic assistance
+- Clinical documentation support
+- Structured medical reports
+- Patient medical result access
+
+These capabilities are designed to assist healthcare professionals rather than replace clinical judgment.
+
+---
+
+### 🏥 Multi-Tenant Healthcare Platform
+
+A single MedMind deployment can support multiple healthcare providers.
+
+Each organization can maintain its own:
+
+- Doctors
+- Specialties
+- Services
+- Branches
+- Schedules
+- Patients
+- Appointments
+- Knowledge base
+
+---
+
+### 🔗 Secure AI Tool Integration
+
+MedMind uses Model Context Protocol (MCP) to provide controlled communication between AI agents and healthcare systems.
+
+This allows the AI layer to interact with:
+
+- Appointment APIs
+- Provider APIs
+- Healthcare databases
+- Knowledge systems
+- Clinical services
+
+while keeping operational actions controlled and auditable.
+
+---
+
+### 📲 Automated Notifications
+
+MedMind supports automated patient communication after healthcare interactions.
+
+Examples include:
+
+- Booking confirmations
+- Appointment reminders
+- Appointment updates
+- WhatsApp notifications
+
+---
+
+### ☁️ Hybrid Deployment
+
+MedMind is designed for:
+
+- Cloud deployment
+- On-premises healthcare environments
+- Hybrid Cloud + On-Premises architecture
+- Containerized services
+
+This allows healthcare providers to keep sensitive systems on-premises while using scalable AI services in the cloud.

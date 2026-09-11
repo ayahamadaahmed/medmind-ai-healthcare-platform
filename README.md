@@ -323,12 +323,16 @@ flowchart TD
     DB --> Notifications[Notification Service]
     Notifications --> WhatsAppAPI[WhatsApp Business API]
 
+    DB --> Dashboard[Analytics & KPI Dashboard]
+```
 
-الـarchitecture دي مبنية على الـsystem model عندكم: user interaction → reservation/AI orchestration → MCP → healthcare/clinical services → data/analytics/cloud. :contentReference[oaicite:0]{index=0}
+MedMind uses a layered architecture that separates patient interaction, AI reasoning, healthcare workflows, clinical support, and data access.
 
+This architecture allows voice, chat, appointment management, clinical intelligence, notifications, and analytics to operate through one unified healthcare platform.
 
-```text
+---
 
+## 🛠️ Technology Stack
 ## 🛠️ Technology Stack
 
 ### 🤖 AI & Agent Orchestration

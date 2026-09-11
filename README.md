@@ -323,4 +323,98 @@ flowchart TD
     DB --> Notifications[Notification Service]
     Notifications --> WhatsAppAPI[WhatsApp Business API]
 
-    
+    ---
+
+## 🛠️ Technology Stack
+
+### 🤖 AI & Agent Orchestration
+
+- LangGraph
+- Model Context Protocol (MCP)
+- LLM-based planning
+- Semantic routing
+- Retrieval-Augmented Generation (RAG)
+- BGE-M3 embeddings
+- Qdrant vector database
+
+---
+
+### 🧠 AI Models
+
+MedMind uses a hybrid AI routing approach combining:
+
+- Semantic capability routing
+- Primary LLM planning
+- Fallback LLM reasoning
+- Deterministic workflow execution
+
+This design allows the platform to balance conversational intelligence with reliable healthcare operations.
+
+---
+
+### 📞 Voice AI
+
+- Asterisk PBX
+- SIP / Telephony integration
+- Hamsa STT
+- Deepgram Streaming STT
+- Silero VAD
+- Streaming TTS
+- WebSocket media transport
+- Barge-in support
+- Dual-STT validation for sensitive confirmation steps
+
+---
+
+### ⚙️ Backend
+
+- Python
+- FastAPI
+- REST APIs
+- WebSockets
+- Async processing
+
+---
+
+### 🗄️ Data Layer
+
+- Microsoft SQL Server
+- Multi-tenant relational schema
+- Qdrant Vector Database
+
+---
+
+### 🔗 Integration & Automation
+
+- Model Context Protocol (MCP)
+- n8n
+- WhatsApp Business integration
+- Healthcare APIs
+- Appointment APIs
+- Provider APIs
+
+---
+
+### ☁️ Infrastructure & Deployment
+
+- Docker
+- Microsoft Azure
+- Azure Container Apps
+- Azure Container Registry
+- Hybrid Cloud + On-Premises architecture
+- Private networking
+- Containerized backend services
+
+---
+
+### 📊 Observability & Reliability
+
+The platform is designed to monitor:
+
+- Voice latency
+- STT performance
+- Booking success rate
+- Intent success rate
+- Escalation rate
+- System availability
+- AI workflow performance
